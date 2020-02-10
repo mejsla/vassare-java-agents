@@ -1,0 +1,2 @@
+Agent-Class: se.mejsla.vassare.agents.agent.Agent
+Can-Retransform-Classes: true
