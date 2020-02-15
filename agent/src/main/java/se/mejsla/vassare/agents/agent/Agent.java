@@ -29,7 +29,7 @@ import static net.bytebuddy.matcher.ElementMatchers.isMethod;
 public class Agent {
 
     public static void agentmain(String agentArgs, Instrumentation instrumentation) {
-        System.out.println(Thread.currentThread() + ": " + "Args=" + agentArgs);
+        System.out.println(Thread.currentThread() + ": Args=" + agentArgs);
 
         new AgentBuilder.Default()
                 .disableClassFormatChanges()
